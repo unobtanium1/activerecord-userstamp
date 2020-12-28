@@ -1,4 +1,7 @@
  # Changelog
+ ## 3.0.6 (28-12-2020)
+  * Tania Rubio       - Support Rails 6.1.
+
  ## 3.0.5 (22-8-2017)
   * Jonathan Putney   - Support Rails 5.0.
   * Joel Low          - Add additional combinations to Travis build matrix.
