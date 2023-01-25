@@ -78,7 +78,7 @@ module ActiveRecord::Userstamp::Stampable
 
       config = ActiveRecord::Userstamp.config
       klass = stamper_class.try(:name)
-      relation_options = options.reverse_merge(class_name: klass)
+      relation_options = options.reverse_merge(optional: true, class_name: klass)
 
       belongs_to :creator, relation_options.reverse_merge(foreign_key: config.creator_attribute) if
         associations.first
